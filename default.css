@@ -58,6 +58,8 @@ p {
 .section-content2 {
   margin: 30px auto;
   width: 960px;
+  padding-right: 35px; 
+  box-sizing: border-box; 
 }
 
 .details {
