@@ -239,7 +239,6 @@ nav li {
     margin-right: 2em;
     display: block;
   }
-}
 
 .details {
   margin-top: 2em; /* Match this with the nav margin-top */
@@ -248,4 +247,5 @@ nav li {
 /* Optional: Adjust margin-top for .text inside .details for consistency */
 .text {
   margin-top: 2em;
+}
 }
