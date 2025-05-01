@@ -167,52 +167,85 @@ nav a:hover {
 
 @media (max-width: 768px) {
   body {
-    margin: 10px;
-  }
-
-  .content,
-  .section-content2,
-  .details,
-  .footer {
-    overflow-x: hidden;
-  }
-
-  .content,
-  .section-content2,
-  .details,
-  .text,
-  .banner,
-  .nav,
-  .left-image {
-    max-width: 100%;
-    box-sizing: border-box;
-  }
-
-  .left-image img {
-    max-width: 100%;
-    height: auto;
-    padding-right: 0;
-  }
-
-  nav li {
-    display: block;
-    text-align: center;
+    margin: 20px;
   }
 
   h1 {
-    font-size: 24px;
-    height: auto;
+    font-size: 26px;
     text-align: center;
+    margin-bottom: 10px;
   }
 
   p, li {
     font-size: 16px;
+    line-height: 24px;;
   }
 
   h2 img {
     width: 100%;
     height: auto;
   }
+
+  .content,
+  .section-content2,
+  .details,
+  .footer,
+  .text,
+  .banner,
+  .nav,
+  .left-image {
+    width: 100% !important;
+    max-width: 100%;
+    float: none;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  /* Adjusting banner alignment */
+  .banner {
+    text-align: center;
+  }
+
+
+
+  /* Fixing nav bar alignment and spacing */
+  .nav {
+    text-align: center;
+    margin-top: 5px;
+    padding: 0;
+  }
+
+  nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
 }
 
+nav li {
+  display: inline-block;
+  margin: 0;
+}
 
+  /* Image responsiveness */
+  .left-image img {
+    width: 110px;  /* Keeps the image size as before */
+    height: auto;
+    padding: 0;
+    margin-right: 2em;
+    display: block;
+  }
+}
+
+.details {
+  margin-top: 2em; /* Match this with the nav margin-top */
+}
+
+/* Optional: Adjust margin-top for .text inside .details for consistency */
+.text {
+  margin-top: 2em;
+}
