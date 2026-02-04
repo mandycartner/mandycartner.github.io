@@ -65,6 +65,10 @@ p {
   box-sizing: border-box; 
 }
 
+.section-content2 a {
+  color: #7796CB;
+}
+
 .details {
   margin: 20px;
   float: left;
@@ -74,6 +78,10 @@ p {
 
 .details p {
   margin: 2px 0;
+}
+
+.details a {
+  color: #7796CB;
 }
 
 .text {
@@ -248,4 +256,39 @@ nav li {
 .text {
   margin-top: 2em;
 }
+}
+
+.pub-list {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.pub-row {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  column-gap: 1rem;
+  align-items: baseline;
+}
+
+.pub-year {
+  font-weight: 300;
+  white-space: nowrap;
+  font-style: italic;
+}
+
+.pub-info {
+  line-height: 1.5;
+}
+
+.pub-info a {
+  color: #7796CB;
+}
+
+.note {
+  color: #666;          
+  font-style: italic;  
+}
+
+.note a {
+  color: #444;          
 }
