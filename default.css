@@ -165,7 +165,7 @@ nav a {
   color: black;
   font-size: 15px;
   text-decoration: none;
-  padding: 6px 12px;
+  padding: 6px 6px;
   display: block;
 }
 
@@ -176,17 +176,22 @@ nav a:hover {
 @media (max-width: 768px) {
   body {
     margin: 20px;
+    font-size: 14px;
+
   }
 
+
   h1 {
-    font-size: 26px;
+    font-size: 24px;
     text-align: center;
     margin-bottom: 10px;
   }
 
+  h2 { font-size: 18px; } 
+
   p, li {
-    font-size: 16px;
-    line-height: 24px;;
+    font-size: 14px;
+    line-height: 20px;;
   }
 
   h2 img {
@@ -206,18 +211,15 @@ nav a:hover {
     max-width: 100%;
     float: none;
     box-sizing: border-box;
-    padding: 0 15px;
+    padding: 0 6px;
     margin: 0 auto;
   }
 
-  /* Adjusting banner alignment */
   .banner {
     text-align: center;
   }
 
 
-
-  /* Fixing nav bar alignment and spacing */
   .nav {
     text-align: center;
     margin-top: 5px;
@@ -244,7 +246,7 @@ nav li {
     width: 110px;  /* Keeps the image size as before */
     height: auto;
     padding: 0;
-    margin-right: 2em;
+    margin-right: 1em;
     display: block;
   }
 
